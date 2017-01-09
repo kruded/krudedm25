@@ -1,3 +1,9 @@
+body,html{
+    height: 100%;
+     margin:0;
+}
+
+
 .item.item-text-wrap {
     background: none;
 }
@@ -265,12 +271,13 @@ background: #ff7f41;
 
 .eventsbg {
 background: #ff7f41;
+height: 100%;
 }
 
 
 /* loginheader */
 .eventsheader {
-    background: #ff7f41 url("../img/extras/events.png");
+    background: #ff7f41 url("../../img/extras/events.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -278,4 +285,9 @@ background: #ff7f41;
     background-size: cover;
     min-height: 140px;
     background-position: center;
+    
+}
+
+.eventsheader .item {
+background: grey;
 }
