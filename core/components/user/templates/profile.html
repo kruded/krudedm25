@@ -3,6 +3,7 @@
     <ion-content padding="true" mm-state-class>
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="userLoaded" on-refresh="refreshUser()"></ion-refresher>
         <mm-loading hide-until="userLoaded">
+           <div class="profilebg">
             <div ng-if="user && !isDeleted">
                 <div class="list">
                     <div class="item item-text-wrap item-avatar-center">
@@ -123,6 +124,7 @@
 
             <div ng-if="isDeleted">
                 {{ 'mm.core.userdeleted' | translate }}
+            </div>
             </div>
         </mm-loading>
     </ion-content>

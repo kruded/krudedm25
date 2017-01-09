@@ -4,6 +4,8 @@
             <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="eventsLoaded" on-refresh="refreshEvents()">
             </ion-refresher>
             <mm-loading hide-until="eventsLoaded">
+              <div class="eventsbg">
+               <div class="eventsheader"></div>
                 <ul class="list">
                     <li ng-if="count == 0" class="item">{{ 'mma.calendar.noevents' | translate }}</li>
                     <li ng-repeat="event in events track by $index">
@@ -19,6 +21,7 @@
                         immediate-check="false"
                         on-infinite="loadMoreEvents()" >
                  </ion-infinite-scroll>
+                 </div>
             </mm-loading>
         </ion-content>
     </mm-split-view>

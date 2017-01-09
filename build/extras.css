@@ -257,3 +257,25 @@ span.item-note.ng-binding {
     padding: 5px;
     font-size: 0.8em;
 }
+
+
+.profilebg {
+background: #ff7f41;
+}
+
+.eventsbg {
+background: #ff7f41;
+}
+
+
+/* loginheader */
+.eventsheader {
+    background: #ff7f41 url("../img/extras/events.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
