@@ -1,0 +1,259 @@
+.item.item-text-wrap {
+    background: none;
+}
+.scroll-content {
+    padding: 0px;
+}
+.item {
+    border: none;
+    background: none;
+}
+
+/* Top Bar colour used across app */
+.bar-content {
+    background-color: #ff7f41;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* The icons used on my courses - participants etc */
+a.tab-item.active {
+    color: #30c3ee;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+/* New login logo custom hack */
+.loginlogo {
+    background: #ff7f41 url("../img/extras/mycourses.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100px;
+    background-position: center;
+    margin-bottom:10px;
+}
+
+
+.loginbg {
+ height: 100%;
+    background:#ff7f41;
+}
+
+
+/* Menu logo custom hack */
+.menulogo {
+    background: url("../img/extras/mycourses.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100px;
+    background-position: center;
+    margin-bottom:10px;
+}
+
+
+
+/* Course holders */
+.card {
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+
+
+/* Buttons */
+a.button.button-block {
+    background: #c80081;
+    border: none;
+    color: #fff;
+}
+a.button.button-block:hover {
+    background: #c80081;
+    border: none;
+    color: #fff;
+}
+
+/* Turns off bg colour of menu */
+.bar-side-menu {
+    background-color: transparent;
+}
+/* Hides divider in menu */
+.list.dark .item.item-divider {
+    display: none;
+}
+/* Sets badge count to red */
+.badge.badge-positive {
+    background-color: #c80081;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 150px;
+}
+
+/* makes menu blur background */
+.menu {
+    background: #ff7f41 url("../img/extras/blur.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* makes side menu items white */
+a.item.item-icon-left {
+    color: #fff;
+}
+
+/* App footer */
+
+.bar-footer {
+    background: #ff7f41;
+}
+.button.disabled,
+.button[disabled] {
+    color: #fff;
+}
+
+.button-clear.button-clear {
+    color: #fff;
+}
+button.button.button-block {
+    background: #c80081;
+    border: none;
+    color: #fff;
+}
+
+/* custom hack */
+.courseheader {
+    background: #ff7f41 url("../img/extras/mycourses.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
+
+/* custom hack */
+.courselistbg {
+    background: #ff7f41 url("../img/extras/courselist.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+    margin-bottom:-20px;
+}
+
+/* custom hack */
+.coursesectionsbg {
+    background: #ff7f41 url("../img/extras/coursesectionsbg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
+
+/* custom hack */
+.coursesection {
+    background: #ff7f41 url("../img/extras/coursesection.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
+
+/* loginheader */
+.loginheader {
+    background: #ff7f41 url("../img/extras/coursesection.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
+
+
+/* setup login text */
+.setup {
+    padding: 20px;
+    text-align: center;
+    color:#fff;
+}
+
+
+/* course titles on mycourses page */
+a.item.courselist {
+ background: #ff7f41;
+    color:#fff;
+    margin-bottom: 15px;
+}
+
+
+a.item.courselist h2{
+
+    color:#fff;
+   
+}
+a.item.courselist {
+border-left: 45px solid #ff7f41;
+}
+
+/* some random padding that we remove */
+.padding {
+    padding: 0px;
+}
+
+/* The icons used on my courses */
+/* icons only in tabs, not ext */
+.tabs-icon-left.tabs .tab-item .icon {
+    display:block;
+}
+
+.item.tabs.tabs-icon-left {
+    padding-top: 10px;
+    padding-bottom:10px;
+    min-height: 80px;
+    margin-top:10px;
+}
+
+
+
+
+.item.item-text-wrap.item-button-right {
+ border-bottom:1px solid #ff7f41;
+  padding-top:15px;
+    padding-bottom: 15px;
+  
+}
+
+.item.item-divider h2 {
+    background: #ff7f41;
+    color:#fff;
+    padding:15px;
+}
+
+
+
+
+
+
+
+
+
+
+span.item-note.ng-binding {
+    background: #ff7f41;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    font-size: 0.8em;
+}
