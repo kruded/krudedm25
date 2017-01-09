@@ -277,7 +277,7 @@ height: 100%;
 
 /* loginheader */
 .eventsheader {
-    background: #ff7f41 url("../../img/extras/events.png");
+    background: #ff7f41 url("./img/extras/events.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
