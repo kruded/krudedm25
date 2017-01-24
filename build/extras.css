@@ -210,6 +210,12 @@ button.button.button-block {
     background: rgba(61, 61, 57, 0.5);
 }
 
+.credentialsbg p{
+    
+    color:#fff;
+   
+}
+
 
 /* course titles on mycourses page */
 a.item.courselist {
