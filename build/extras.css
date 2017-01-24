@@ -30,7 +30,7 @@ a.tab-item.active {
 
 /* New login logo custom hack */
 .loginlogo {
-    background: #ff7f41 url("../img/extras/mycourses.png");
+    background: transparent;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 100px;
@@ -49,6 +49,12 @@ a.tab-item.active {
   background-size: cover;
 }
 
+label { 
+    color: #fff; 
+    background-color: #ff7f41;
+    border-top-right-radius: 7px;
+    padding:7px;
+}
 
 /* Menu logo custom hack */
 .menulogo {
