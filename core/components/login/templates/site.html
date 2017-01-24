@@ -16,19 +16,24 @@
         
         
         <div class="setup">{{ 'mm.login.newsitedescription' | translate }}</div>
+       
         <div class="loginform">
-        <form>
-            <label class="item item-input item-stacked-label">
-            
-            <input type="hidden" name="url" placeholder="pborbon-sandbox.mrooms.net" ng-init="siteurl='http://pborbon-sandbox.mrooms.net'" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
-          </label>
-          <div class="padding">
-              <button class="button button-block" ng-click="connect(siteurl)">{{ 'mm.login.connect' | translate }}</button>
+       
+      <form>
+          <ion-input class="item item-input item-stacked-label">
+            <ion-label>{{ 'mm.login.siteaddress' | translate }}</ion-label>
+            <input type="url" placeholder="moodle.org" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
+          </ion-input>
+          <div class="item item-input padding">
+              <button class="button button-block" ng-click="connect(siteurl)" ng-disabled="!siteurl">{{ 'mm.login.connect' | translate }}</button>
               <!-- <input type="submit" class="button button-block" value="{{ 'mm.login.connect' | translate }}" > -->
           </div>
-          </form></div>
-      </div>
-    </form>
+       
+      
+       </form>            
+       </div>
+          </div>
+    
     </div>
   </ion-content>
 </ion-view>

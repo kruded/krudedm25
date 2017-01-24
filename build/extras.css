@@ -41,7 +41,12 @@ a.tab-item.active {
 
 .loginbg {
  height: 100%;
-    background:#ff7f41;
+  background-image: url("../img/extras/bglogin.jpg");
+    background-color:#ff7f41; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
