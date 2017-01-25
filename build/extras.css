@@ -222,7 +222,7 @@ button.button.button-block {
     background-position: center;
 }
 
-.planssheader li {
+.myplans li {
   border-top: 4px solid #28d9fb;
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
@@ -256,10 +256,9 @@ button.button.button-block {
 
 /* setup login text */
 .credentialsbg {
-    padding: 5px;
+    padding: 25px 5px 25px 5px;
     text-align: center;
-    color:#fff;
-    background: rgba(61, 61, 57, 0.5);
+     background: rgba(255,255,255,0.95);
     margin-top:20px;
     margin-bottom: 20px;
 }
