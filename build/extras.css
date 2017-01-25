@@ -212,7 +212,7 @@ button.button.button-block {
 }
 
 .planssheader {
-    background: #ff7f41 url("../img/extras/coursesection.png");
+    background: url("../img/extras/coursesection.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
