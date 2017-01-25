@@ -146,6 +146,7 @@ a.item.item-icon-left {
 .bar-footer {
     background: #fff;
     border-top: 2px solid #28d9fb;
+    min-height:50px;
 }
 .button.disabled,
 .button[disabled] {
@@ -245,7 +246,7 @@ button.button.button-block {
  padding: 5px;
     text-align: center;
     color:#fff;
-    background: rgba(61, 61, 57, 0.5);
+    background: rgba(255,255,255,0.95);
 }
 
 .credentialsbg p{
@@ -334,7 +335,7 @@ span.item-note.ng-binding {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    border-bottom: 20px solid #c46ed1;
+    height:100%;
     color:#fff;
     text-align:center;
 }
@@ -344,7 +345,7 @@ span.item-note.ng-binding {
 
 /* loginheader */
 .eventsheader {
-background: #ff7f41 url("../img/extras/eventsheader.png");
+background:  url("../img/extras/events.png");
    background-repeat: no-repeat;
     background-size: contain;
     min-height: 100px;
