@@ -7,6 +7,8 @@
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="coursesLoaded" on-refresh="refreshCourses()">
         </ion-refresher>
         <mm-loading hide-until="coursesLoaded">
+           
+          <div class="greypage"> 
             <div class="list" ng-if="courses && courses.length > 5">
                 <ion-input class="item item-input">
                     <i class="icon ion-funnel placeholder-icon"></i>
@@ -14,6 +16,8 @@
                 </ion-input>
             </div>
              <div class="courselistbg"></div>
+           
+           <div class="bbbox">
             <section ng-repeat="course in courses | filter:{fullname: filter.filterText}" class="list card">
                 <a class="item item-icon-right" ui-sref="site.mm_course({courseid: course.id, coursefullname: course.fullname})" title="{{course.fullname}}">
                     <h2><mm-format-text watch="true">{{course.fullname}}</mm-format-text></h2>
@@ -37,9 +41,12 @@
                     </div>
                 </div>
             </section>
+            </div>
+           
             <div ng-if="!courses || !courses.length">
                 <p>{{ 'mm.courses.nocourses' | translate }}</p>
                 <p ng-if="searchEnabled">{{ 'mm.courses.searchcoursesadvice' | translate }}</p>
+            </div>
             </div>
         </mm-loading>
     </ion-content>
