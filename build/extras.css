@@ -76,7 +76,7 @@ a.tab-item.active {
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
-    
+    margin:10px;
 }
 
 
@@ -298,7 +298,15 @@ span.item-note.ng-binding {
 
 
 .profilebg {
-background: #ff7f41;
+ background: #ff7f41 url("../img/extras/blur.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 20px solid #c46ed1;
+    color:#fff;
+    text-align:center;
 }
 
 .eventsbg {
@@ -339,3 +347,6 @@ span.input-label {
     }
 
 
+.item {
+border-color: #c46ed1;
+}
