@@ -79,6 +79,14 @@ a.tab-item.active {
     margin:10px;
 }
 
+.eventlink {
+     border-top: 4px solid #28d9fb;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin:10px;
+}
+
 
 
 /* Buttons */
@@ -126,7 +134,8 @@ a.item.item-icon-left {
 /* App footer */
 
 .bar-footer {
-    background: #ff7f41;
+    background: #fff;
+    border-top: 2px solid #28d9fb;
 }
 .button.disabled,
 .button[disabled] {
@@ -274,9 +283,11 @@ border-left: 45px solid #ff7f41;
 }
 
 .item.item-divider h2 {
-    background: #ff7f41;
-    color:#fff;
-    padding:15px;
+    background: #fff;
+    color:#000;
+    padding:0px;
+    font-weight:bold;
+    border-bottom: 1px solid #28d9fb;
 }
 
 
