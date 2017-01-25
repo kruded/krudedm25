@@ -211,6 +211,27 @@ button.button.button-block {
     background-position: center;
 }
 
+.planssheader {
+    background: #ff7f41 url("../img/extras/coursesection.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
+
+.planssheader li {
+  border-top: 4px solid #28d9fb;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin:10px;
+}
+
+
+
 /* loginheader */
 .loginheader {
     background: #ff7f41 url("../img/extras/coursesection.png");
@@ -239,6 +260,8 @@ button.button.button-block {
     text-align: center;
     color:#fff;
     background: rgba(61, 61, 57, 0.5);
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 
@@ -347,7 +370,10 @@ span.item-note.ng-binding {
 .eventsheader {
 background:  url("../img/extras/events.png");
    background-repeat: no-repeat;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     min-height: 100px;
     background-position: center;
     
