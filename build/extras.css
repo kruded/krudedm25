@@ -66,12 +66,17 @@ a.tab-item.active {
 .card {
     border-radius: 0px;
     box-shadow: none;
-      .bbbox {
-    border-top: 4px solid #28d9fb;
-    border-left: 2px solid #e5e5e5;
-    border-right: 2px solid #e5e5e5;
-    border-bottom: 2px solid #e5e5e5;
-    }
+     
+   
+}
+
+
+.list.card {
+     border-top: 4px solid #28d9fb;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    
 }
 
 
