@@ -1,9 +1,10 @@
 <ion-view>
+   <div class="profilebg">
     <ion-nav-title>{{title}}</ion-nav-title>
     <ion-content padding="true" mm-state-class>
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="userLoaded" on-refresh="refreshUser()"></ion-refresher>
         <mm-loading hide-until="userLoaded">
-           <div class="profilebg">
+           
             <div ng-if="user && !isDeleted">
                 <div class="list">
                     <div class="item item-text-wrap item-avatar-center">
@@ -15,10 +16,9 @@
                     </div>
                 </div>
 
+<div class="profileblock">
                 <div class="list">
-                    <div class="item item-divider" ng-if="hasContact">
-                        <h2>{{ 'mm.user.contact' | translate}}</h2>
-                    </div>
+                   
                     <div class="item" ng-if="user.email">
                         <p class="item-heading">{{ 'mm.user.email' | translate}}</p>
                         <p>
@@ -66,6 +66,7 @@
                             <mm-format-text watch="true" clean="true">{{user.country}}</mm-format-text>
                         </p>
                     </div>
+                </div>
                 </div>
 
                 <div class="item text-center item-borderless" ng-if="(!profileHandlers || !profileHandlers.length) && isLoadingHandlers">
@@ -125,7 +126,8 @@
             <div ng-if="isDeleted">
                 {{ 'mm.core.userdeleted' | translate }}
             </div>
-            </div>
+           
         </mm-loading>
     </ion-content>
+     </div>
 </ion-view>
