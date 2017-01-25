@@ -258,9 +258,16 @@ button.button.button-block {
 .credentialsbg {
     padding: 25px 5px 25px 5px;
     text-align: center;
-     background: rgba(255,255,255,0.95);
+     background: rgba(61, 61, 57, 0.5);
     margin-top:20px;
     margin-bottom: 20px;
+}
+
+.profilebg {
+    padding: 25px 5px 25px 5px;
+    text-align: center;
+     background: rgba(255,255,255,0.95);
+    
 }
 
 
@@ -386,9 +393,7 @@ input[type=url] {
    padding:10px;
 }
 
-span.input-label {
-    color: #fff;
-    }
+
     
   
     
@@ -399,4 +404,8 @@ span.input-label {
 
 .item {
 border-color: #c46ed1;
+}
+
+.item-stacked-label .input-label {
+    color: #fff;
 }
