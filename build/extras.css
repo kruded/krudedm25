@@ -85,8 +85,18 @@ a.tab-item.active {
     border-right: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     margin:10px;
+    background:#fff;
 }
 
+
+a.item.item-media.item-text-wrap {
+border-top: 4px solid #28d9fb;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin:10px;
+    background:#fff;
+}
 
 
 /* Buttons */
@@ -288,6 +298,7 @@ border-left: 45px solid #ff7f41;
     padding:0px;
     font-weight:bold;
     border-bottom: 1px solid #28d9fb;
+    font-size:130%;
 }
 
 
@@ -320,21 +331,14 @@ span.item-note.ng-binding {
     text-align:center;
 }
 
-.eventsbg {
-background: #ff7f41;
-height: 100%;
-}
+
 
 
 /* loginheader */
 .eventsheader {
-    background: #ff7f41 url("./img/extras/events.png");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 140px;
+   background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100px;
     background-position: center;
     
 }
