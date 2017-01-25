@@ -17,7 +17,7 @@
             </div>
              <div class="courselistbg"></div>
            
-           <div class="bbbox">
+          
             <section ng-repeat="course in courses | filter:{fullname: filter.filterText}" class="list card">
                 <a class="item item-icon-right" ui-sref="site.mm_course({courseid: course.id, coursefullname: course.fullname})" title="{{course.fullname}}">
                     <h2><mm-format-text watch="true">{{course.fullname}}</mm-format-text></h2>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </section>
-            </div>
+            
            
             <div ng-if="!courses || !courses.length">
                 <p>{{ 'mm.courses.nocourses' | translate }}</p>
