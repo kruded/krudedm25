@@ -259,13 +259,14 @@ button.button.button-block {
     padding: 25px 5px 25px 5px;
     text-align: center;
      background: rgba(61, 61, 57, 0.5);
-    margin-top:20px;
+    margin-top:0px;
     margin-bottom: 20px;
     color: #fff;
 }
 
 .firsttime {
 color:#fff;
+text-align: center;
 }
 
 .profilebg {
