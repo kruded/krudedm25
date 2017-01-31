@@ -261,6 +261,11 @@ button.button.button-block {
      background: rgba(61, 61, 57, 0.5);
     margin-top:20px;
     margin-bottom: 20px;
+    color: #fff;
+}
+
+.firsttime {
+color:#fff;
 }
 
 .profilebg {
