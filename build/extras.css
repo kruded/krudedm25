@@ -287,7 +287,11 @@ text-align: center;
     
 }
 
-.profileblock2p .item-heading {
+.profileblock2 .item-heading {
+color:#fff
+}
+
+.profileblock2 .item {
 color:#fff
 }
 
