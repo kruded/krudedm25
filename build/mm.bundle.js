@@ -6019,11 +6019,11 @@ angular.module('mm.core')
         };
                 self.getDocsUrl = function(release, page) {
             page = page || 'Mobile_app';
-            var docsurl = 'https://docs.moodle.org/en/' + page;
+            var docsurl = 'http://www.kvc.ac.th/en/' + page;
             if (typeof release != 'undefined') {
                 var version = release.substr(0, 3).replace(".", "");
                 if (parseInt(version) >= 24) {
-                    docsurl = docsurl.replace('https://docs.moodle.org/', 'https://docs.moodle.org/' + version + '/');
+                    docsurl = docsurl.replace('http://www.kvc.ac.th/', 'http://www.kvc.ac.th/' + version + '/');
                 }
             }
             return $mmLang.getCurrentLanguage().then(function(lang) {
