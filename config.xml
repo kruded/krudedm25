@@ -5,14 +5,14 @@
         id        = "com.moodlerooms.moodleroomsmobile"
         versionCode = "20160"
         version   = "3.2.0">
-    <name>Moodlerooms Mobile App</name>
+    <name>EVA KVC Mobile App</name>
 
     <description>
-        Moodlerooms Mobile official app
+        EVA KVC Mobile official app
     </description>
 
-    <author href="http://61.91.109.46/eva" email="mobile@moodlerooms.com">
-        Moodlerooms
+    <author href="http://61.91.109.46/eva" email="kruded@kvc.ac.th">
+        EVA KVC Mobile
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
