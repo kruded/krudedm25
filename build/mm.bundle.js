@@ -47699,7 +47699,7 @@ angular.module('mm.core')
     "demo_sites": {},
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://61.91.109.46/eva",
+    "siteurl": "http://m25.kruded.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false"
 }
