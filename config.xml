@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id  = "kvc.eva.Moobile.app"
+        id  = "kvc.pre.vnet.moobile.app"
         versionCode = "20160"
-        version   = "3.2.0">
-    <name>EVA KVC</name>
+        version   = "1.0.0">
+    <name>KVC Pre V-net</name>
 
     <description>
-        EVA KVC Mobile official app
+        KVC Pre V-net Mobile official app
     </description>
 
     <author href="http://61.91.109.46/eva" email="kruded@kvc.ac.th">
-        EVA KVC Mobile
+        KVC Pre V-net Mobile
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
