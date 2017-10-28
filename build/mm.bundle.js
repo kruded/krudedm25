@@ -47687,7 +47687,7 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "kvc.pre.vnet.moobile.app",
+    "app_id" : "kvc.pre.vnet.mobile.app",
     "appname": "KVC Pre V-net Mobile App",
     "versioncode" : "2016",
     "versionname" : "1.0.0",
