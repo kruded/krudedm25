@@ -47687,7 +47687,7 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "kvc.eva.Moobile.app",
+    "app_id" : "kvc.pre.vnet.moobile.app",
     "appname": "Moodle Mobile",
     "versioncode" : "2016",
     "versionname" : "3.2.0",
