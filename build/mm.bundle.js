@@ -47687,8 +47687,8 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "kvc.pre.vnet.mobile.app",
-    "appname": "KVC Pre V-net Mobile App",
+    "app_id" : "kruded.online.mobile.app",
+    "appname": "Kruded Online Mobile App",
     "versioncode" : "2016",
     "versionname" : "1.0.0",
     "cache_expiration_time" : 300000,
