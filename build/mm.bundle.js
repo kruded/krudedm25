@@ -6019,11 +6019,11 @@ angular.module('mm.core')
         };
                 self.getDocsUrl = function(release, page) {
             page = page || 'Mobile_app';
-            var docsurl = 'http://61.91.109.46/eva/en/' + page;
+            var docsurl = 'http://m25.kruded.com/m25/en/' + page;
             if (typeof release != 'undefined') {
                 var version = release.substr(0, 3).replace(".", "");
                 if (parseInt(version) >= 24) {
-                    docsurl = docsurl.replace('http://61.91.109.46/eva', 'http://61.91.109.46/eva/' + version + '/');
+                    docsurl = docsurl.replace('http://m25.kruded.com/m25', 'http://61.91.109.46/m25/' + version + '/');
                 }
             }
             return $mmLang.getCurrentLanguage().then(function(lang) {
