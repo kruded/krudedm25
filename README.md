@@ -1,2 +1,2 @@
-# EVA KVC
-EVA Mobile App 1.0
+# KRUDED MOBILE APP
+KRUDED Mobile App 1.0
