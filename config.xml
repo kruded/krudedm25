@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id  = "kvc.pre.vnet.mobile.app"
+        id  = "kruded.mobile.app"
         versionCode = "20171028"
         version   = "1.0.0">
-    <name>KVC Pre V-net</name>
+    <name>KRUDED MOBILE APP</name>
 
     <description>
-        KVC Pre V-net Mobile official app
+        Kruded Mobile official app
     </description>
 
     <author href="http://m25.kruded.com" email="kruded@kvc.ac.th">
-        KVC Pre V-net Mobile
+        Kruded Mobile
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
