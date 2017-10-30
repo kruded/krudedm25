@@ -6023,7 +6023,7 @@ angular.module('mm.core')
             if (typeof release != 'undefined') {
                 var version = release.substr(0, 3).replace(".", "");
                 if (parseInt(version) >= 24) {
-                    docsurl = docsurl.replace('http://m25.kruded.com/m25', 'http://61.91.109.46/m25/' + version + '/');
+                    docsurl = docsurl.replace('http://m25.kruded.com/m25', 'http://m25.kruded.com/m25/' + version + '/');
                 }
             }
             return $mmLang.getCurrentLanguage().then(function(lang) {
