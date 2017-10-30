@@ -5,14 +5,14 @@
         id  = "kruded.online.mobile.app"
         versionCode = "20171028"
         version   = "1.0.0">
-    <name>Kruded Online Mobile App</name>
+    <name>Kruded Mobile App</name>
 
     <description>
-        Kruded Online Mobile official app
+        Kruded Mobile official app
     </description>
 
     <author href="http://m25.kruded.com" email="kruded@kvc.ac.th">
-        Kruded Online Mobile App
+        Kruded Mobile App
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
