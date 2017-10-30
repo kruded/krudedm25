@@ -47688,8 +47688,8 @@ angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
     "app_id" : "kruded.online.mobile.app",
-    "appname": "Kruded Online Mobile App",
-    "versioncode" : "2016",
+    "appname": "Kruded Mobile App",
+    "versioncode" : "2017",
     "versionname" : "1.0.0",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
