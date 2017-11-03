@@ -17,7 +17,7 @@ body,html{
 
 /* Top Bar colour used across app */
 .bar-content {
-    background-color: #00cc00;
+    background-color: #003366;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -101,12 +101,12 @@ border-top: 4px solid #28d9fb;
 
 /* Buttons */
 a.button.button-block {
-    background: #00cc00;
+    background: #003366;
     border: none;
     color: #fff;
 }
 a.button.button-block:hover {
-    background: #00cc00;
+    background: #003366;
     border: none;
     color: #fff;
 }
@@ -121,7 +121,7 @@ a.button.button-block:hover {
 }
 /* Sets badge count to red */
 .badge.badge-positive {
-    background-color: #00cc00;
+    background-color: #003366;
     color: white;
     border: 2px solid #fff;
     border-radius: 150px;
@@ -157,7 +157,7 @@ a.item.item-icon-left {
     color: #fff;
 }
 button.button.button-block {
-    background: #00cc00;
+    background: #003366;
     border: none;
     color: #fff;
 }
