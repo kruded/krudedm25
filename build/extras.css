@@ -42,7 +42,7 @@ a.tab-item.active {
 .loginbg {
  height: 100%;
   background-image: url("../img/extras/bglogin.jpg");
-    background-color:#009933; 
+    background-color:#006b9f; 
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -129,7 +129,7 @@ a.button.button-block:hover {
 
 /* makes menu blur background */
 .menu {
-    background: #009933 url("../img/extras/blur.jpg");
+    background: #006b9f url("../img/extras/blur.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -164,7 +164,7 @@ button.button.button-block {
 
 /* custom hack */
 .courseheader {
-    background: #009933 url("../img/extras/mycourses.png");
+    background: #006b9f url("../img/extras/mycourses.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -176,7 +176,7 @@ button.button.button-block {
 
 /* custom hack */
 .courselistbg {
-    background: #009933 url("../img/extras/courselist.png");
+    background: #006b9f url("../img/extras/courselist.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -189,7 +189,7 @@ button.button.button-block {
 
 /* custom hack */
 .coursesectionsbg {
-    background: #009933 url("../img/extras/coursesectionsbg.png");
+    background: #006b9f url("../img/extras/coursesectionsbg.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,7 +201,7 @@ button.button.button-block {
 
 /* custom hack */
 .coursesection {
-    background: #009933 url("../img/extras/coursesection.png");
+    background: #006b9f url("../img/extras/coursesection.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -234,7 +234,7 @@ button.button.button-block {
 
 /* loginheader */
 .loginheader {
-    background: #009933 url("../img/extras/coursesection.png");
+    background: #006b9f url("../img/extras/coursesection.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -305,7 +305,7 @@ color:#fff
 
 /* course titles on mycourses page */
 a.item.courselist {
- background: #009933;
+ background: #006b9f;
     color:#fff;
     margin-bottom: 15px;
 }
@@ -317,7 +317,7 @@ a.item.courselist h2{
    
 }
 a.item.courselist {
-border-left: 45px solid #009933;
+border-left: 45px solid #006b9f;
 }
 
 /* some random padding that we remove */
@@ -342,7 +342,7 @@ border-left: 45px solid #009933;
 
 
 .item.item-text-wrap.item-button-right {
- border-bottom:1px solid #009933;
+ border-bottom:1px solid #006b9f;
   padding-top:15px;
     padding-bottom: 15px;
   
@@ -367,7 +367,7 @@ border-left: 45px solid #009933;
 
 
 span.item-note.ng-binding {
-    background: #009933;
+    background: #006b9f;
     border-radius: 5px;
     color: #fff;
     padding: 5px;
@@ -376,7 +376,7 @@ span.item-note.ng-binding {
 
 
 .profilebg {
- background: #009933 url("../img/extras/blur.jpg");
+ background: #006b9f url("../img/extras/blur.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
