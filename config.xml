@@ -3,16 +3,16 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id  = "kruded.mobile.app"
-        versionCode = "20171101"
-        version   = "1.0.1">
-    <name>KRUDED MOBILE APP</name>
+        versionCode = "20171103"
+        version   = "1.0.2">
+    <name>KRUDED APP</name>
 
     <description>
         Kruded Mobile official app
     </description>
 
     <author href="http://m25.kruded.com" email="kruded@kvc.ac.th">
-        Kruded Mobile
+        Kruded App
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
