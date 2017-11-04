@@ -793,7 +793,7 @@
     "mma.mod_quiz.confirmstart": "The quiz has a time limit of {{$a}}. Time will count down from the moment you start your attempt and you must submit before it expires. Are you sure that you wish to start now?",
     "mma.mod_quiz.confirmstartheader": "Timed quiz",
     "mma.mod_quiz.connectionerror": "Network connection lost. (Autosave failed).\n\nMake a note of any responses entered on this page in the last few minutes, then try to re-connect.\n\nOnce connection has been re-established, your responses should be saved and this message will disappear.",
-    "mma.mod_quiz.continueattemptquiz": "Continue the last attempt",
+    "mma.mod_quiz.continueattemptquiz": "ทำต่อจากครั้งที่แล้ว",
     "mma.mod_quiz.continuepreview": "Continue the last preview",
     "mma.mod_quiz.errordownloading": "Error downloading required data.",
     "mma.mod_quiz.errorgetattempt": "Error getting attempt data.",
