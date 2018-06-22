@@ -47689,8 +47689,8 @@ angular.module('mm.core')
 .constant('mmCoreConfigConstants', {
     "app_id" : "kruded.online.mobile.app",
     "appname": "Kruded Mobile App",
-    "versioncode" : "2017",
-    "versionname" : "1.0.0",
+    "versioncode" : "2018",
+    "versionname" : "1.0.1",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
     "languages": {"ar": "عربي", "bg": "Български", "ca": "Català", "cs": "Čeština", "da": "Dansk", "de": "Deutsch","en": "English", "es": "Español", "es-mx": "Español - México", "eu": "Euskara", "fa": "فارسی", "fr" : "Français", "he" : "עברית", "hu": "magyar", "it": "Italiano", "ja": "日本語","nl": "Nederlands", "pl": "Polski", "pt-br": "Português - Brasil", "pt": "Português - Portugal", "ro": "Română", "ru": "Русский", "sv": "Svenska", "tr" : "Türkçe", "zh-cn" : "简体中文", "zh-tw" : "正體中文"},
@@ -47699,7 +47699,7 @@ angular.module('mm.core')
     "demo_sites": {},
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://m25.kruded.com",
+    "siteurl": "http://kruded.kvc.ac.th",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false"
 }
