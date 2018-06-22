@@ -3,15 +3,15 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id  = "kruded.mobile.app"
-        versionCode = "20171104"
-        version   = "1.0.2">
+        versionCode = "20180622"
+        version   = "1.0.1">
     <name>KRUDED APP</name>
 
     <description>
         Kruded Mobile official app
     </description>
 
-    <author href="http://m25.kruded.com" email="kruded@kvc.ac.th">
+    <author href="http://kruded.kvc.ac.th" email="kruded@kvc.ac.th">
         Kruded App
     </author>
 
