@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id  = "kruded.mobile.app"
         versionCode = "20180622"
-        version   = "1.0.1">
+        version   = "1.0.3">
     <name>KRUDED APP</name>
 
     <description>
